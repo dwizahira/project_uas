@@ -1,0 +1,96 @@
+/* style2.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:first-child {
+    margin-right: auto; /* Move the first li (Home) to the left */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#app-login {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.hl {
+    color: #333;
+    font-size: 24px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Additional text box styling */
+.additional-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="password"],
+input[type="text"],
+.input[type="additional-text"] {
+    width: calc(100% - 22px);
+}
+
+input[type="submit"] {
+    background-color: #0b0eda;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #121312;
+}
+
+h3 {
+    color: #ff0000;
+    margin-bottom: 10px;
+}
